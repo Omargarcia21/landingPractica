@@ -1,0 +1,249 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    background: #282c34;
+    color: white;
+}
+.nav {
+    width: 100%;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    flex: 1;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+.nav-list li {
+    margin-left: 10px;
+}
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+.nav-list a:hover{
+    color: #21a1f1;
+    text-decoration: underline;
+}
+
+
+
+.hero {
+    text-align: left;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+}
+.text-content {
+    flex: 1;
+}
+.container-img {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.cta-button {
+    background: #61dafb;
+    color: #282c34;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.cta-button:hover {
+    background: #21a1f1;
+    color: white;
+}
+
+
+
+
+.features, .pricing, .contact {
+    padding: 50px 0;
+}
+.features {
+    background-color: #92cace;
+}
+.pricing {
+    background-color: #5faab1;
+}
+.features h2, .pricing h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.feature-items, .pricing-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-item, .pricing-item {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% -20px);
+    box-sizing: border-box;
+}
+.pricing-item {
+    text-align: center;
+}
+
+
+.contact {
+    background-color: #f4f4f4;
+}
+.contact h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.form-group {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background: #21a1f1;
+    color: white;
+}
+
+
+
+footer {
+    background: #282c34;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.container-footer {
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+.footer-content div {
+    margin-bottom: 20px;
+}
+.footer-logo h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.footer-nav li {
+    margin: 0 10px;
+}
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+.footer-nav a:hover {
+    color: #21a1f1;
+    text-decoration: underline;
+}
+.footer-social a {
+    margin: 0 10px;
+}
+.footer-social i {
+    width: 30px;
+    height: 30px;
+    color: #dddd;
+}
+.footer-bottom {
+    margin-top: 20px;
+}
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+    }
+}
