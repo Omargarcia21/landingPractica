@@ -247,3 +247,19 @@ footer {
         flex-direction: row;
     }
 }
+
+.footer-icons {
+    margin-bottom: 20px;
+}
+.footer-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+    width: 30px;
+    height: 30px;
+    color: #dddd;
+}
+.footer-icons a:hover {
+    color: #21a1f1;
+}
